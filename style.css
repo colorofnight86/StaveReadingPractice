@@ -1,0 +1,19 @@
+/**
+ * 无边框窗口的拖动实现方法
+ */
+.ele_drag {
+    -webkit-app-region: drag; /* 让父元素可拖动，设置了drag的元素不可点击 */
+}
+
+.ele_nodrag {
+    -webkit-app-region: no-drag; /*让子元素不可拖动，设置了no-drag的元素可点击 */
+}
+
+.button{
+    width:50px;
+    height:30px;
+}
+
+.content{
+    text-align: center;
+}
