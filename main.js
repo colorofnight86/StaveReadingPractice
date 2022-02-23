@@ -17,7 +17,7 @@ function createWindow() {
     resizable:false,
     icon: path.join(__dirname, 'screen.ico'),
     backgroundColor: '#66ccff',
-    alwaysOnTop:true,
+    // alwaysOnTop:true,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false
@@ -50,7 +50,7 @@ function popupWindow(){
     // x: x_pos+200,
     // y: y_pos+100,
     width:400,
-    height:200,
+    height:300,
     titleBarStyle: 'hidden',
     titleBarOverlay: true,
     webPreferences:{

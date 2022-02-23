@@ -1,7 +1,7 @@
 {
-  "name": "satvePrctice",
-  "version": "1.0.0",
-  "description": "Hello World!",
+  "name": "stave-prctice-app",
+  "version": "0.1.0",
+  "description": "Stave reading practice program",
   "main": "main.js",
   "scripts": {
     "start":"nodemon --watch main.js --watch renderer.js --exec \"electron-forge start\"",
@@ -27,14 +27,14 @@
   "config": {
     "forge": {
       "packagerConfig": {
-        "name": "admin-screen-app",
+        "name": "StavePracticeApp",
         "icon": "./screen.ico"
       },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "my_electron_app"
+            "name": "StavePracticeApp"
           }
         },
         {
